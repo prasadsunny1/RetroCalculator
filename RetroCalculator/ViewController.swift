@@ -113,5 +113,13 @@ class ViewController: UIViewController {
 
     }
     
+    @IBAction func ClearBtnPressed(_ sender: UIButton) {
+        
+        runningNumber = ""
+        leftValString = ""
+        rightValString = ""
+        result = ""
+        outputLbl.text = ""
+    }
 }
 

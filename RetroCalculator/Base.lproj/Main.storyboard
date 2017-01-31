@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11762" systemVersion="15G1212" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
-    <device id="retina3_5" orientation="portrait">
+    <device id="retina4_0" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
@@ -23,30 +23,30 @@
                         <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleAspectFit" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="space-bg" translatesAutoresizingMaskIntoConstraints="NO" id="aj7-9K-7mQ">
-                                <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                             </imageView>
                             <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="ground" translatesAutoresizingMaskIntoConstraints="NO" id="h6b-vh-yWp">
-                                <rect key="frame" x="0.0" y="440" width="320" height="40"/>
+                                <rect key="frame" x="0.0" y="528" width="320" height="40"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="40" id="3Eg-Vk-eHZ"/>
                                 </constraints>
                             </imageView>
                             <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="counter" translatesAutoresizingMaskIntoConstraints="NO" id="UEr-2y-LAB">
-                                <rect key="frame" x="36" y="34" width="248" height="63.5"/>
+                                <rect key="frame" x="36" y="34" width="248" height="107.5"/>
                             </imageView>
                             <imageView userInteractionEnabled="NO" contentMode="redraw" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="backpanel" translatesAutoresizingMaskIntoConstraints="NO" id="8q1-aI-NNU">
-                                <rect key="frame" x="41" y="102.5" width="243" height="354"/>
+                                <rect key="frame" x="41" y="146.5" width="243" height="354"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="243" id="g6T-wj-Xxd"/>
                                     <constraint firstAttribute="height" constant="354" id="oTj-N6-i2K"/>
                                 </constraints>
                             </imageView>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="W4V-cE-eod">
-                                <rect key="frame" x="58.5" y="122" width="203" height="310"/>
+                                <rect key="frame" x="59" y="166" width="203" height="310"/>
                                 <subviews>
                                     <stackView opaque="NO" contentMode="scaleToFill" spacing="7" translatesAutoresizingMaskIntoConstraints="NO" id="zay-ae-yBg">
                                         <rect key="frame" x="0.0" y="0.0" width="203" height="54"/>
@@ -240,32 +240,50 @@
                                     </stackView>
                                 </subviews>
                             </stackView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gVc-kD-Ggf">
-                                <rect key="frame" x="36" y="34" width="233" height="63.5"/>
-                                <fontDescription key="fontDescription" name="Minecraft" family="Minecraft" pointSize="24"/>
-                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="0.64172952586206899" colorSpace="calibratedRGB"/>
-                                <nil key="highlightedColor"/>
-                            </label>
+                            <stackView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="TH4-LE-0Ij">
+                                <rect key="frame" x="42" y="62" width="232" height="51"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleAspectFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="WmI-qA-7eP">
+                                        <rect key="frame" x="0.0" y="0.0" width="79" height="51"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="79" id="0Jq-OX-8Em"/>
+                                            <constraint firstAttribute="height" constant="51" id="Gzs-ES-AWr"/>
+                                        </constraints>
+                                        <state key="normal" image="clear"/>
+                                        <connections>
+                                            <action selector="ClearBtnPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="jr0-EF-wuE"/>
+                                        </connections>
+                                    </button>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gVc-kD-Ggf">
+                                        <rect key="frame" x="79" y="0.0" width="153" height="51"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="51" id="Wz7-U0-0ng"/>
+                                            <constraint firstAttribute="width" constant="153" id="c9N-Y0-DhR"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" name="Minecraft" family="Minecraft" pointSize="24"/>
+                                        <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="0.64172952586206899" colorSpace="calibratedRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                            </stackView>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
-                            <constraint firstItem="UEr-2y-LAB" firstAttribute="centerY" secondItem="gVc-kD-Ggf" secondAttribute="centerY" id="05C-jx-jsz"/>
                             <constraint firstAttribute="trailing" secondItem="aj7-9K-7mQ" secondAttribute="trailing" id="0cq-my-bmV"/>
                             <constraint firstItem="UEr-2y-LAB" firstAttribute="trailing" secondItem="8q1-aI-NNU" secondAttribute="trailing" id="AqE-AK-5BR"/>
+                            <constraint firstItem="TH4-LE-0Ij" firstAttribute="centerY" secondItem="UEr-2y-LAB" secondAttribute="centerY" id="ELw-N9-jeI"/>
                             <constraint firstItem="aj7-9K-7mQ" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="Fs3-ke-ZQu"/>
                             <constraint firstAttribute="trailing" secondItem="h6b-vh-yWp" secondAttribute="trailing" id="H3Y-BK-1Cp"/>
                             <constraint firstItem="8q1-aI-NNU" firstAttribute="top" secondItem="UEr-2y-LAB" secondAttribute="bottom" constant="5" id="JYc-mf-Bdq"/>
                             <constraint firstItem="W4V-cE-eod" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" constant="37" id="Oy1-q3-q68"/>
                             <constraint firstItem="8q1-aI-NNU" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" constant="2.5" id="Ptu-Ft-MLE"/>
                             <constraint firstItem="UEr-2y-LAB" firstAttribute="centerX" secondItem="W4V-cE-eod" secondAttribute="centerX" id="QGY-UA-cpJ"/>
-                            <constraint firstItem="gVc-kD-Ggf" firstAttribute="top" secondItem="UEr-2y-LAB" secondAttribute="top" id="Vnk-0U-ehn"/>
                             <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="aj7-9K-7mQ" secondAttribute="bottom" id="XX5-jb-sgz"/>
                             <constraint firstItem="h6b-vh-yWp" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="ZMD-Ve-Kdr"/>
                             <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="h6b-vh-yWp" secondAttribute="bottom" id="ZWG-is-FLq"/>
                             <constraint firstItem="8q1-aI-NNU" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" constant="39.5" id="aDL-t3-SJP"/>
                             <constraint firstItem="UEr-2y-LAB" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="14" id="apV-ed-Ca6"/>
-                            <constraint firstItem="gVc-kD-Ggf" firstAttribute="trailing" secondItem="UEr-2y-LAB" secondAttribute="trailing" constant="-15" id="b3W-iU-DDy"/>
-                            <constraint firstItem="gVc-kD-Ggf" firstAttribute="leading" secondItem="UEr-2y-LAB" secondAttribute="leading" id="sde-cc-3im"/>
+                            <constraint firstItem="TH4-LE-0Ij" firstAttribute="leading" secondItem="UEr-2y-LAB" secondAttribute="leading" constant="6" id="k74-7p-1Ym"/>
                             <constraint firstItem="W4V-cE-eod" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="vUJ-Re-ywO"/>
                             <constraint firstItem="aj7-9K-7mQ" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="yRq-3f-wPo"/>
                         </constraints>
@@ -276,7 +294,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="114.375" y="122.5"/>
+            <point key="canvasLocation" x="114.375" y="121.47887323943662"/>
         </scene>
     </scenes>
     <resources>
@@ -292,6 +310,7 @@
         <image name="9" width="111" height="114"/>
         <image name="add" width="111" height="114"/>
         <image name="backpanel" width="620" height="938"/>
+        <image name="clear" width="333" height="114"/>
         <image name="counter" width="516" height="133"/>
         <image name="divide" width="111" height="114"/>
         <image name="equal" width="111" height="114"/>
