@@ -3,33 +3,35 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 46;
+	objectVersion = 56;
 	objects = {
 
 /* Begin PBXBuildFile section */
-		64D4EA011E3B58AD0037A142 /* Minecraft.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 64D4EA001E3B58AD0037A142 /* Minecraft.ttf */; };
-		64D4EA031E3B5A3A0037A142 /* btn.wav in Resources */ = {isa = PBXBuildFile; fileRef = 64D4EA021E3B5A3A0037A142 /* btn.wav */; };
-		64E8C5881E3A62C600DB655A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64E8C5871E3A62C600DB655A /* AppDelegate.swift */; };
-		64E8C58A1E3A62C600DB655A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64E8C5891E3A62C600DB655A /* ViewController.swift */; };
-		64E8C58D1E3A62C600DB655A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 64E8C58B1E3A62C600DB655A /* Main.storyboard */; };
-		64E8C58F1E3A62C600DB655A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 64E8C58E1E3A62C600DB655A /* Assets.xcassets */; };
-		64E8C5921E3A62C600DB655A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 64E8C5901E3A62C600DB655A /* LaunchScreen.storyboard */; };
+		64DC68592B6130CC00BC447B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64DC68582B6130CC00BC447B /* AppDelegate.swift */; };
+		64DC685B2B6130CC00BC447B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64DC685A2B6130CC00BC447B /* SceneDelegate.swift */; };
+		64DC685D2B6130CC00BC447B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64DC685C2B6130CC00BC447B /* ViewController.swift */; };
+		64DC68602B6130CC00BC447B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 64DC685E2B6130CC00BC447B /* Main.storyboard */; };
+		64DC68622B6130CD00BC447B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 64DC68612B6130CD00BC447B /* Assets.xcassets */; };
+		64DC68652B6130CD00BC447B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 64DC68632B6130CD00BC447B /* LaunchScreen.storyboard */; };
+		64DC686D2B61322900BC447B /* Minecraft.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 64DC686C2B61322900BC447B /* Minecraft.ttf */; };
+		64DC686F2B61323200BC447B /* btn.wav in Resources */ = {isa = PBXBuildFile; fileRef = 64DC686E2B61323200BC447B /* btn.wav */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		64D4EA001E3B58AD0037A142 /* Minecraft.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Minecraft.ttf; sourceTree = "<group>"; };
-		64D4EA021E3B5A3A0037A142 /* btn.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = btn.wav; sourceTree = "<group>"; };
-		64E8C5841E3A62C600DB655A /* RetroCalculator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RetroCalculator.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		64E8C5871E3A62C600DB655A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		64E8C5891E3A62C600DB655A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		64E8C58C1E3A62C600DB655A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		64E8C58E1E3A62C600DB655A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		64E8C5911E3A62C600DB655A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		64E8C5931E3A62C600DB655A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		64DC68552B6130CC00BC447B /* RetroCalculator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RetroCalculator.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		64DC68582B6130CC00BC447B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		64DC685A2B6130CC00BC447B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		64DC685C2B6130CC00BC447B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		64DC685F2B6130CC00BC447B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		64DC68612B6130CD00BC447B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		64DC68642B6130CD00BC447B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		64DC68662B6130CD00BC447B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		64DC686C2B61322900BC447B /* Minecraft.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Minecraft.ttf; sourceTree = "<group>"; };
+		64DC686E2B61323200BC447B /* btn.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = btn.wav; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		64E8C5811E3A62C600DB655A /* Frameworks */ = {
+		64DC68522B6130CC00BC447B /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -39,33 +41,34 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		64E8C57B1E3A62C600DB655A = {
+		64DC684C2B6130CC00BC447B = {
 			isa = PBXGroup;
 			children = (
-				64E8C5861E3A62C600DB655A /* RetroCalculator */,
-				64E8C5851E3A62C600DB655A /* Products */,
+				64DC68572B6130CC00BC447B /* RetroCalculator */,
+				64DC68562B6130CC00BC447B /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		64E8C5851E3A62C600DB655A /* Products */ = {
+		64DC68562B6130CC00BC447B /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				64E8C5841E3A62C600DB655A /* RetroCalculator.app */,
+				64DC68552B6130CC00BC447B /* RetroCalculator.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		64E8C5861E3A62C600DB655A /* RetroCalculator */ = {
+		64DC68572B6130CC00BC447B /* RetroCalculator */ = {
 			isa = PBXGroup;
 			children = (
-				64E8C5871E3A62C600DB655A /* AppDelegate.swift */,
-				64E8C5891E3A62C600DB655A /* ViewController.swift */,
-				64E8C58B1E3A62C600DB655A /* Main.storyboard */,
-				64E8C58E1E3A62C600DB655A /* Assets.xcassets */,
-				64E8C5901E3A62C600DB655A /* LaunchScreen.storyboard */,
-				64E8C5931E3A62C600DB655A /* Info.plist */,
-				64D4EA001E3B58AD0037A142 /* Minecraft.ttf */,
-				64D4EA021E3B5A3A0037A142 /* btn.wav */,
+				64DC68582B6130CC00BC447B /* AppDelegate.swift */,
+				64DC685A2B6130CC00BC447B /* SceneDelegate.swift */,
+				64DC685C2B6130CC00BC447B /* ViewController.swift */,
+				64DC685E2B6130CC00BC447B /* Main.storyboard */,
+				64DC68612B6130CD00BC447B /* Assets.xcassets */,
+				64DC68632B6130CD00BC447B /* LaunchScreen.storyboard */,
+				64DC68662B6130CD00BC447B /* Info.plist */,
+				64DC686C2B61322900BC447B /* Minecraft.ttf */,
+				64DC686E2B61323200BC447B /* btn.wav */,
 			);
 			path = RetroCalculator;
 			sourceTree = "<group>";
@@ -73,13 +76,13 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		64E8C5831E3A62C600DB655A /* RetroCalculator */ = {
+		64DC68542B6130CC00BC447B /* RetroCalculator */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 64E8C5961E3A62C600DB655A /* Build configuration list for PBXNativeTarget "RetroCalculator" */;
+			buildConfigurationList = 64DC68692B6130CD00BC447B /* Build configuration list for PBXNativeTarget "RetroCalculator" */;
 			buildPhases = (
-				64E8C5801E3A62C600DB655A /* Sources */,
-				64E8C5811E3A62C600DB655A /* Frameworks */,
-				64E8C5821E3A62C600DB655A /* Resources */,
+				64DC68512B6130CC00BC447B /* Sources */,
+				64DC68522B6130CC00BC447B /* Frameworks */,
+				64DC68532B6130CC00BC447B /* Resources */,
 			);
 			buildRules = (
 			);
@@ -87,83 +90,83 @@
 			);
 			name = RetroCalculator;
 			productName = RetroCalculator;
-			productReference = 64E8C5841E3A62C600DB655A /* RetroCalculator.app */;
+			productReference = 64DC68552B6130CC00BC447B /* RetroCalculator.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		64E8C57C1E3A62C600DB655A /* Project object */ = {
+		64DC684D2B6130CC00BC447B /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 0820;
-				LastUpgradeCheck = 0820;
-				ORGANIZATIONNAME = "Sanni Prasad";
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1520;
+				LastUpgradeCheck = 1520;
 				TargetAttributes = {
-					64E8C5831E3A62C600DB655A = {
-						CreatedOnToolsVersion = 8.2.1;
-						ProvisioningStyle = Automatic;
+					64DC68542B6130CC00BC447B = {
+						CreatedOnToolsVersion = 15.2;
 					};
 				};
 			};
-			buildConfigurationList = 64E8C57F1E3A62C600DB655A /* Build configuration list for PBXProject "RetroCalculator" */;
-			compatibilityVersion = "Xcode 3.2";
-			developmentRegion = English;
+			buildConfigurationList = 64DC68502B6130CC00BC447B /* Build configuration list for PBXProject "RetroCalculator" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
 				Base,
 			);
-			mainGroup = 64E8C57B1E3A62C600DB655A;
-			productRefGroup = 64E8C5851E3A62C600DB655A /* Products */;
+			mainGroup = 64DC684C2B6130CC00BC447B;
+			productRefGroup = 64DC68562B6130CC00BC447B /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				64E8C5831E3A62C600DB655A /* RetroCalculator */,
+				64DC68542B6130CC00BC447B /* RetroCalculator */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		64E8C5821E3A62C600DB655A /* Resources */ = {
+		64DC68532B6130CC00BC447B /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				64D4EA031E3B5A3A0037A142 /* btn.wav in Resources */,
-				64E8C5921E3A62C600DB655A /* LaunchScreen.storyboard in Resources */,
-				64E8C58F1E3A62C600DB655A /* Assets.xcassets in Resources */,
-				64D4EA011E3B58AD0037A142 /* Minecraft.ttf in Resources */,
-				64E8C58D1E3A62C600DB655A /* Main.storyboard in Resources */,
+				64DC686F2B61323200BC447B /* btn.wav in Resources */,
+				64DC68652B6130CD00BC447B /* LaunchScreen.storyboard in Resources */,
+				64DC68622B6130CD00BC447B /* Assets.xcassets in Resources */,
+				64DC686D2B61322900BC447B /* Minecraft.ttf in Resources */,
+				64DC68602B6130CC00BC447B /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		64E8C5801E3A62C600DB655A /* Sources */ = {
+		64DC68512B6130CC00BC447B /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				64E8C58A1E3A62C600DB655A /* ViewController.swift in Sources */,
-				64E8C5881E3A62C600DB655A /* AppDelegate.swift in Sources */,
+				64DC685D2B6130CC00BC447B /* ViewController.swift in Sources */,
+				64DC68592B6130CC00BC447B /* AppDelegate.swift in Sources */,
+				64DC685B2B6130CC00BC447B /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		64E8C58B1E3A62C600DB655A /* Main.storyboard */ = {
+		64DC685E2B6130CC00BC447B /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				64E8C58C1E3A62C600DB655A /* Base */,
+				64DC685F2B6130CC00BC447B /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
-		64E8C5901E3A62C600DB655A /* LaunchScreen.storyboard */ = {
+		64DC68632B6130CD00BC447B /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				64E8C5911E3A62C600DB655A /* Base */,
+				64DC68642B6130CD00BC447B /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -171,33 +174,45 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		64E8C5941E3A62C600DB655A /* Debug */ = {
+		64DC68672B6130CD00BC447B /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
 				CLANG_ANALYZER_NONNULL = YES;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
-				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
-				GCC_C_LANGUAGE_STANDARD = gnu99;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_OPTIMIZATION_LEVEL = 0;
@@ -211,43 +226,56 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
-				MTL_ENABLE_DEBUG_INFO = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
-		64E8C5951E3A62C600DB655A /* Release */ = {
+		64DC68682B6130CD00BC447B /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
 				CLANG_ANALYZER_NONNULL = YES;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
-				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_C_LANGUAGE_STANDARD = gnu99;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
@@ -255,61 +283,94 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
-				TARGETED_DEVICE_FAMILY = "1,2";
+				SWIFT_COMPILATION_MODE = wholemodule;
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
 		};
-		64E8C5971E3A62C600DB655A /* Debug */ = {
+		64DC686A2B6130CD00BC447B /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = QQQ649T9KB;
+				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = RetroCalculator/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = creativeios.RetroCalculator;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
-		64E8C5981E3A62C600DB655A /* Release */ = {
+		64DC686B2B6130CD00BC447B /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = QQQ649T9KB;
+				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = RetroCalculator/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = creativeios.RetroCalculator;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		64E8C57F1E3A62C600DB655A /* Build configuration list for PBXProject "RetroCalculator" */ = {
+		64DC68502B6130CC00BC447B /* Build configuration list for PBXProject "RetroCalculator" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				64E8C5941E3A62C600DB655A /* Debug */,
-				64E8C5951E3A62C600DB655A /* Release */,
+				64DC68672B6130CD00BC447B /* Debug */,
+				64DC68682B6130CD00BC447B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		64E8C5961E3A62C600DB655A /* Build configuration list for PBXNativeTarget "RetroCalculator" */ = {
+		64DC68692B6130CD00BC447B /* Build configuration list for PBXNativeTarget "RetroCalculator" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				64E8C5971E3A62C600DB655A /* Debug */,
-				64E8C5981E3A62C600DB655A /* Release */,
+				64DC686A2B6130CD00BC447B /* Debug */,
+				64DC686B2B6130CD00BC447B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 64E8C57C1E3A62C600DB655A /* Project object */;
+	rootObject = 64DC684D2B6130CC00BC447B /* Project object */;
 }
